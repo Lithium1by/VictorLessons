@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Snake
 {
-	class Program
-	{
-		static void Main( string[] args )
-		{
-            HorizontalLine HLine1 = new HorizontalLine(2,50,1,'_');
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            HorizontalLine HLine1 = new HorizontalLine(2, 50, 1, '_');
             HLine1.Drow();
 
             HorizontalLine HLine2 = new HorizontalLine(2, 50, 20, '_');
@@ -22,7 +22,7 @@ namespace Snake
             VerticalLine VLine2 = new VerticalLine(2, 20, 51, '|');
             VLine2.Drow();
 
-			Console.ReadLine();
-		}
-	}
+            Console.ReadLine();
+        }
+    }
 }
